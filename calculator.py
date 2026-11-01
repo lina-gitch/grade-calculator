@@ -1,4 +1,3 @@
-
 def calculate_average(grades):
     if not grades:
         raise ValueError("The grades list cannot be empty")
@@ -6,7 +5,7 @@ def calculate_average(grades):
 
 
 def is_passing(average):
-    return average >= 10
+    return average > 10
 
 
 def get_grade_category(average):
